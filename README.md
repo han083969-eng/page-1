@@ -1,3 +1,6 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 # 🚀 能源动力工程计算项目
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -12,15 +15,15 @@
 $$\eta_{is} = \frac{h_{2s} - h_1}{h_2 - h_1}$$
 
 其中：
-* $\eta_{is}$ 为定熵效率
-* $h$ 为单位质量焓值
+* **$\eta_{is}$** 为定熵效率
+* **$h$** 为单位质量焓值
 
 ---
 
 ## 📊 计算结果示例
 
 | 参数名称 | 符号 | 数值 | 单位 |
-| :--- | :--- | :---: | :--- |
+| :--- | :---: | :---: | :--- |
 | 蒸发压力 | $P_{evap}$ | 0.24 | MPa |
 | 冷凝压力 | $P_{cond}$ | 1.16 | MPa |
 | 性能系数 | $COP$ | 3.52 | - |
@@ -28,4 +31,4 @@ $$\eta_{is} = \frac{h_{2s} - h_1}{h_2 - h_1}$$
 
 
 ---
-© 2024 能动专业学生作品
+© 2025 能动专业学生作品
