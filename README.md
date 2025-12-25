@@ -1,6 +1,3 @@
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
 # 🚀 能源动力工程计算项目
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -12,11 +9,13 @@
 
 本项目遵循热力学第一定律。对于定熵效率的计算公式如下：
 
-$$\eta_{is} = \frac{h_{2s} - h_1}{h_2 - h_1}$$
+$$
+\eta_{is} = \frac{h_{2s} - h_1}{h_2 - h_1}
+$$
 
 其中：
-* $\eta_{is}$ 为定熵效率
-* $h$ 为单位质量焓值
+- $\eta_{is}$ ：为定熵效率
+- $h$ ：为单位质量焓值
 
 ---
 
@@ -24,9 +23,9 @@ $$\eta_{is} = \frac{h_{2s} - h_1}{h_2 - h_1}$$
 
 | 参数名称 | 符号 | 数值 | 单位 |
 | :--- | :---: | :---: | :---: |
-| 蒸发压力 | \(\text{P}_{evap}\) | 0.24 | MPa |
-| 冷凝压力 | \(\text{P}_{cond}\) | 1.16 | MPa |
-| 性能系数 | \(\text{COP}\) | 3.52 | - |
+| 蒸发压力 | $P_{evap}$ | 0.24 | MPa |
+| 冷凝压力 | $P_{cond}$ | 1.16 | MPa |
+| 性能系数 | $COP$ | 3.52 | - |
 
 ---
 © 2025 能动专业学生作品
